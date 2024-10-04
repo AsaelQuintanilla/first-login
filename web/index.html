@@ -33,6 +33,24 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCneq3GoFkR6yNAhQgAh1--k2tblj-WpT4",
+      authDomain: "flutter-firebase-6f68a.firebaseapp.com",
+      projectId: "flutter-firebase-6f68a",
+      storageBucket: "flutter-firebase-6f68a.appspot.com",
+      messagingSenderId: "451079137617",
+      appId: "1:451079137617:web:8e09264febd59b82914b70"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="main.dart.js" type="application/javascript"></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
